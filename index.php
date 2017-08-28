@@ -15,17 +15,17 @@
 	<meta name="viewport" content="width=device-width">
 	
 	
-	<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
-	<link rel="stylesheet" href="css/nivo-slider.css" media="all"  /> 
-	<link rel="stylesheet" href="css/tweet.css" media="all"  />
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+	<link rel="stylesheet" media="screen" href="<?php bloginfo('template_directory'); ?>/css/superfish.css" /> 
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/nivo-slider.css" media="all"  /> 
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/tweet.css" media="all"  />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
+	<link rel="stylesheet" media="all" href="<?php bloginfo('template_directory'); ?>/css/lessframework.css"/>
 	
 	
 	<!-- All JavaScript at the bottom, except this Modernizr build.
 	   Modernizr enables HTML5 elements & feature detects for optimal performance.
 	   Create your own custom Modernizr build: www.modernizr.com/download/ -->
-	<script src="js/modernizr-2.5.3.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
 	
@@ -50,7 +50,7 @@
 			<!-- ENDS social-bar -->
 			
 			<div id="logo" class="cf">
-				<a href="index.html" ><img src="img/logo.png" alt="" /></a>
+				<a href="index.html" ><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" /></a>
 			</div>
 			
 			<!-- nav -->
@@ -85,9 +85,9 @@
 			<!-- SLIDER -->
 			<div class="slider-wrapper theme-halftone">
 	            <div id="slider" class="nivoSlider">
-	                <img src="img/dummies/slides/01.jpg" alt=""  />
-	                <img src="img/dummies/slides/02.jpg" alt="" />
-	                <img src="img/dummies/slides/03.jpg" alt="" />
+	                <img src="<?php bloginfo('template_directory'); ?>/img/dummies/slides/01.jpg" alt=""  />
+	                <img src="<?php bloginfo('template_directory'); ?>/img/dummies/slides/02.jpg" alt="" />
+	                <img src="<?php bloginfo('template_directory'); ?>/img/dummies/slides/03.jpg" alt="" />
 	            </div>
 	            <div class="slider-left"></div>
 	            <div class="slider-right"></div>
@@ -104,7 +104,7 @@
 			<ul class="feature cf">
 				<li>
 					<a href="single.html" class="thumb" >
-						<img src="img/dummies/t1.jpg" alt="Thumbnail" />
+						<img src="<?php bloginfo('template_directory'); ?>/img/dummies/t1.jpg" alt="Thumbnail" />
 						<div class="img-overlay"><i class="icon-plus-sign"></i></div>
 						<div class="date"><span class="m">JAN</span><span class="d">09</span></div>
 					</a>
@@ -114,7 +114,7 @@
 				
 				<li>
 					<a href="single.html" class="thumb" >
-						<img src="img/dummies/t2.jpg" alt="Thumbnail" />
+						<img src="<?php bloginfo('template_directory'); ?>/img/dummies/t2.jpg" alt="Thumbnail" />
 						<div class="img-overlay"><i class="icon-plus-sign"></i></div>
 						<div class="date"><span class="m">JAN</span><span class="d">09</span></div>
 					</a>
@@ -124,7 +124,7 @@
 				
 				<li>
 					<a href="single.html" class="thumb" >
-						<img src="img/dummies/t3.jpg" alt="Thumbnail" />
+						<img src="<?php bloginfo('template_directory'); ?>/img/dummies/t3.jpg" alt="Thumbnail" />
 						<div class="img-overlay"><i class="icon-plus-sign"></i></div>
 						<div class="date"><span class="m">JAN</span><span class="d">09</span></div>
 					</a>
@@ -165,19 +165,19 @@
 					<div class="widget-block">
 						<h4>RECENT POSTS</h4>
 						<div class="recent-post cf">
-							<a href="#" class="thumb"><img src="img/dummies/54x54.gif" alt="Post" /></a>
+							<a href="#" class="thumb"><img src="<?php bloginfo('template_directory'); ?>/img/dummies/54x54.gif" alt="Post" /></a>
 							<div class="post-head">
 								<a href="#">Pellentesque habitant morbi senectus </a><span> March 12, 2011</span>
 							</div>
 						</div>
 						<div class="recent-post cf">
-							<a href="#" class="thumb"><img src="img/dummies/54x54b.gif" alt="Post" /></a>
+							<a href="#" class="thumb"><img src="<?php bloginfo('template_directory'); ?>/img/dummies/54x54b.gif" alt="Post" /></a>
 							<div class="post-head">
 								<a href="#">Pellentesque habitant morbi senectus</a><span> March 12, 2011</span>
 							</div>
 						</div>
 						<div class="recent-post cf">
-							<a href="#" class="thumb"><img src="img/dummies/54x54c.gif" alt="Post" /></a>
+							<a href="#" class="thumb"><img src="<?php bloginfo('template_directory'); ?>/img/dummies/54x54c.gif" alt="Post" /></a>
 							<div class="post-head">
 								<a href="#">Pellentesque habitant morbi senectus</a><span> March 12, 2011</span>
 							</div>
@@ -241,19 +241,19 @@
 	
 	
 	<!-- scripts concatenated and minified via build script -->
-	<script src="js/jquery-1.7.1.min.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.7.1.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/custom.js"></script>
 	
 	<!-- superfish -->
-	<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
-	<script  src="js/superfish-1.4.8/js/superfish.js"></script>
-	<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+	<script  src="<?php bloginfo('template_directory'); ?>/js/superfish-1.4.8/js/hoverIntent.js"></script>
+	<script  src="<?php bloginfo('template_directory'); ?>/js/superfish-1.4.8/js/superfish.js"></script>
+	<script  src="<?php bloginfo('template_directory'); ?>/js/superfish-1.4.8/js/supersubs.js"></script>
 	<!-- ENDS superfish -->
 	
-	<script src="js/jquery.nivo.slider.js" ></script>
-	<script src="js/css3-mediaqueries.js"></script>
-	<script src="js/tabs.js"></script>
-	<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery.nivo.slider.js" ></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/css3-mediaqueries.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/tabs.js"></script>
+	<script  src="<?php bloginfo('template_directory'); ?>/js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
 	<!-- end scripts -->
 
 </body>
